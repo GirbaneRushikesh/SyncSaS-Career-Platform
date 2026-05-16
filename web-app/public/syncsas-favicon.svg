@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="SyncSaS">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b5fff"/>
+      <stop offset="1" stop-color="#66a3ff"/>
+    </linearGradient>
+  </defs>
+  <rect rx="18" ry="18" width="128" height="128" fill="url(#g)"/>
+  <g transform="translate(12,16)" fill="#fff" font-family="Inter, sans-serif" font-weight="700">
+    <text x="8" y="80" font-size="72">SS</text>
+  </g>
+</svg>

@@ -4,9 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "nodemon --watch src --ext js,jsx,ts,tsx --exec \"node ./scripts/start-dev.cjs\"",
+    "dev:node": "node ./scripts/start-dev.cjs",
+    "dev:nodemon": "nodemon --watch src --ext js,jsx,ts,tsx --exec \"node ./scripts/start-dev.cjs\"",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -25,6 +26,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+    "nodemon": "^3.1.14",
     "vite": "^7.2.4"
   }
 }

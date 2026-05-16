@@ -1,0 +1,13 @@
+{
+  "name": "syncsas-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./web-app run dev",
+    "dev:nodemon": "npm --prefix ./web-app run dev:nodemon",
+    "install:web": "npm --prefix ./web-app install",
+    "install:web:dev": "npm --prefix ./web-app install --save-dev nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
